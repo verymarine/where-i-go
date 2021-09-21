@@ -1,0 +1,7 @@
+.cover {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  width: calc(100% - 2 * 60px);
+  display: flex;
+  justify-content: space-between;
+}
