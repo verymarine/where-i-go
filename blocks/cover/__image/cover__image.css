@@ -1,8 +1,8 @@
 .cover__image {
-  margin: 0 76px 0 0;
+  margin: 0;
   padding: 0;
-  max-width: 308px;
-  max-height: 308px;
+  width: 308px;
+  height: 308px;
   object-fit: cover;
 }
 
@@ -12,7 +12,8 @@
 
 @media screen and (max-width: 1023px) {
   .cover__image {
-    
+    width: 250px;
+    height: 250px;
   }
 }
 

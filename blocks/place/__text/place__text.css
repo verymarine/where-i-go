@@ -2,7 +2,6 @@
   margin: 0 172px 75px 60px;
   padding: 0;
   grid-area: text;
-  /* max-width: 320px; */
   font-size: 12px;
   line-height: 150%;
 }
@@ -13,16 +12,22 @@
 
 @media screen and (max-width: 1279px) {
   .place__text {
-    margin: 0;
+    margin: 0 120px 50px 45px;
   }
 
   .place__text:first-of-type {
-    margin: 0;
+    margin: 0 125px 50px 45px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  
+  .place__text {
+    margin: 0 70px 10px 25px;
+  }
+
+  .place__text:first-of-type {
+    margin: 0 75px 10px 25px;
+  }
 }
 
 @media screen and (max-width: 767px) {

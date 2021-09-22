@@ -1,18 +1,21 @@
 .cover {
-  margin: 75px auto 0 auto;
+  margin: 75px 135px 0 60px;
   padding: 0;
-  /* width: calc(100% - 2 * 60px); */
+  max-width: 1280px;
   display: flex;
   justify-content: space-between;
 }
 
 @media screen and (max-width: 1279px) {
-  
+  .cover {
+    max-width: 1024px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
     max-width: 768px;
+    margin: 50px 40px 0 20px;
   }
 }
 
@@ -20,6 +23,6 @@
   .cover {
     margin: 40px auto 0 auto;
     flex-direction: column-reverse;
-    width: 320px;
+    max-width: 320px;
   }
 }

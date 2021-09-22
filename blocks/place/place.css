@@ -1,6 +1,7 @@
 .place {
   margin: 0;
   padding: 0;
+  max-width: 1280px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: 
@@ -17,12 +18,10 @@
 }
 
 @media screen and (max-width: 1279px) {
-  /* .place {
-    grid-template-areas: 
-  "image"
-  "title"
-  "text"
-  } */
+  .place {
+    max-width: 1024px;
+    margin: 0 auto 0 auto;
+  }
 }
 
 @media screen and (max-width: 1023px) {
