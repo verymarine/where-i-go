@@ -1,6 +1,24 @@
 .cover__image {
   margin: 0 76px 0 0;
   padding: 0;
-  width: 308px;
-  height: 308px;
+  max-width: 308px;
+  max-height: 308px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1279px) {
+  
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__image {
+    
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__image {
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
 }
