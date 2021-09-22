@@ -1,7 +1,16 @@
 .header__navigation {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-end;
     max-width: 222px;
     width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .header__navigation {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
 }

@@ -1,13 +1,12 @@
-.header {
+.people {
     width: calc(100% - 2*60px);
     max-width: 994px;
-    margin: 45px auto 0;
-    display: flex;
-    justify-content: space-between;
+    margin: auto;
+    margin-top: 110px;
 }
 
 @media screen and (max-width: 767px) {
-    .header {
+    .people {
         width: calc(100% - 2*40px);
         max-width: 320px;
     }
