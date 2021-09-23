@@ -1,14 +1,13 @@
 .people {
     width: calc(100% - 2*60px);
-    max-width: 994px;
-    margin: auto;
-    margin-top: 110px;
+    margin: 110px auto 120px;
 }
 
 @media screen and (max-width: 767px) {
     .people {
-        width: calc(100% - 2*40px);
+        width: calc(100% - 2*20px);
         max-width: 320px;
+        margin-top: 40px;
     }
     
 }
