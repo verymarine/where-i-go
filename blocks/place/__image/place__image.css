@@ -4,6 +4,7 @@
   width: 640px;
   height: 540px;
   grid-area: image;
+  
 }
 
 @media screen and (max-width: 1279px) {
