@@ -1,0 +1,32 @@
+.video {
+  padding: 0;
+  margin: 110px auto 0 auto;
+  max-width: 1280px;
+  height: 630px;
+  background-image: url('../../images/video.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1279px) {
+  .video {
+    max-width: 1024px;
+    height: 504px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .video {
+    margin: 60px auto 0 auto;
+    max-width: 768px;
+    height: 378px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video {
+    margin: 40px auto 0 auto;
+    max-width: 320px;
+    height: 157px;
+  }
+}
