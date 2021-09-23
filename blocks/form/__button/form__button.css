@@ -1,0 +1,10 @@
+.form__button {
+    max-width: 175px;
+    min-height: 26px;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    align-self: flex-end;
+}
